@@ -1,0 +1,152 @@
+@media (max-width: 576px) {
+  .logo {
+    max-width: 130px;
+    margin: 12px 0 0;
+  }
+  .banner {
+    background: url("../img/main-banner-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    overflow: hidden;
+  }
+  .banner-text h1 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  .banner-text h4 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 0 0px 0;
+  }
+  .banner-line {
+    height: 1px;
+    width: 140px;
+    background: #a1a1a1;
+  }
+  .banner-text h2 {
+    font-size: 14px;
+    color: #fff;
+    line-height: 19px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    width: 95%;
+    margin: 15px 0 15px;
+  }
+  .banner-btn a {
+    display: inline-block;
+    background: var(--text-primary);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 2px 32px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+  }
+  .banner-btn img {
+    width: 17px;
+  }
+  .bannner-box h5 {
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 6px;
+  }
+  .bannner-box img {
+    width: 22px;
+  }
+  .banner-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    height: 85vh;
+    margin-top: 0px;
+  }
+  .main-heading-black h2 {
+    font-size: 20px;
+  }
+  .program .nav-pills .nav-link {
+    font-size: 13px;
+    border-right: 1px solid #db5527;
+    border-radius: 4px;
+  }
+  .program-box-left ul li {
+    margin-bottom: 1px;
+  }
+  .program-box-left ul li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+  }
+  .program-box-left ul {
+    margin-bottom: 20px;
+  }
+  .program .tab-content > .tab-pane {
+    margin-top: 8px;
+  }
+  .main-heading-white h2 {
+    font-size: 19px;
+  }
+  .skills .nav-pills .nav-link {
+    font-size: 13px;
+    border-right: 1px solid #db5527;
+    border-radius: 4px;
+  }
+  .skil-mb-hide {
+    display: none;
+  }
+
+  .scholarships-box-content {
+    background: #000;
+    color: #fff;
+    padding: 22px 10px;
+    border-radius: 0 0 6px 6px;
+    min-height: 122px;
+  }
+  .scholarships-box-content p {
+    font-size: 10px;
+    margin-bottom: 0px;
+    line-height: 14px;
+  }
+  .curriculum .nav-item {
+    width: 22.3%;
+  }
+  .ad-box-cont-right {
+    display: none;
+  }
+  .ad-box-cont {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 14px 0;
+  }
+  .ad-box-cont .ad-box-cont-left h4 {
+    font-size: 15px;
+  }
+  .ad-box-cont .ad-box-cont-left h4 span {
+    font-size: 13px;
+  }
+  .ad-box-cont-left {
+    width: 100%;
+  }
+  .advantage-box {
+    border: 0.38px solid #ffffff80;
+    padding: 5px 7px 0px 7px;
+    margin: 1px;
+    border-radius: 8px;
+  }
+  .curriculum-box-inner-list ul li {
+    font-size: 10px;
+    font-weight: 400;
+    list-style-position: inside;
+  }
+  .main-heading h2 {
+    font-size: 22px;
+  }
+}
